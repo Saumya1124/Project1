@@ -126,14 +126,6 @@ footer img{
     width: 200px;
 }
 
-.img1{
-     padding-right: 0px!important;
-    padding-left: 0px!important;
-}
-.f1{
-    margin-right: 0px!important;
-    margin-left: 0px!important;
-}
 
 @media(max-width: 280px){
     .img1{
@@ -156,7 +148,11 @@ footer img{
 }
 .navbar-toggler{
     position: absolute;
-    left: 130px;
-    top: 62px;
+    left: 150px;
+    top: 42px;
+    background-color: white;
+}
+.hr1{
+    margin-top: 2rem;
 }
 }
