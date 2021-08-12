@@ -1,0 +1,287 @@
+.nav1 .navbar-dark .navbar-nav .nav-link {
+    color:#E88F16;
+    /*font-weight: bold;*/
+}
+.nav1 .navbar-dark .navbar-nav .nav-link :hover{
+    color:#1B2B4B;
+    font-weight: bold;
+}
+.nav2 .navbar-dark .navbar-nav .nav-link {
+    color:#1B2B4B;
+    font-weight: bold;
+}
+.nav2 .navbar-dark .navbar-nav .nav-link :hover{
+	color:#1B2B4B;
+}
+.nav-item{
+	padding: 0px 12px;
+}
+
+     .nav-item :hover{
+    	color:#01013c!important;
+    }
+    .nav-link.dropdown-toggle:hover{
+        color: #1B2B4B!important;
+    }
+    
+    .p1:hover{
+    	color: white!important;
+    }
+
+    #navbarDropdown{
+    	color:#1B2B4B;
+    }
+
+/*Image Section*/
+.home-img{
+    background-image: url("../assets/img/home.jpg");
+    height: 70vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    background-color:#16384c;
+    padding-top:5px;
+    /*padding-bottom: 1px;*/
+    /*margin-left: 70px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.heading h1{
+   color: #E88F16;
+   font-size: 45px;
+}
+
+/*Srolling text*/
+.para{
+    background-color:#E88F16;
+    color: white;
+    padding:10px;
+    font-size: 20px;
+}
+
+.btn1{
+    font-size: 20px;
+    font-weight: bold;
+    color:#1B2B4B;
+    background-color:#dad9d9;
+    border: 1px solid #fd7705;
+    border-radius: 30px;
+    padding: 10px;
+}
+.course{
+    background-color:#1B2B4B;
+    padding: 30px;
+}
+/*.course p{
+    color: white;
+}*/
+
+/*footer1*/
+.footer1 ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 2px;
+
+}
+.footer1 ul{
+    padding-left: 0px;
+}
+/*footer2*/
+
+footer .fab{
+    font-size: 32px;
+    padding: 10px;
+}
+footer img{
+    width: 200px;
+}
+.image1{
+    /*margin-top: 50px;*/
+     /*margin-left: 150px;*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 70vh;
+
+}
+
+
+.hr1{
+    margin-top: -10px;
+}
+.border{
+    border-bottom: 2px solid #dad9d9; width:265px; height:1px;
+}
+.nav{
+    margin-top:10px;margin-top: 10px;width: 80%;float: right;margin-left: 67px;
+}
+.sec1{
+   
+   /* display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+}
+.sec1 .row{
+    /*max-width: 1312px;*/
+}
+.logo-div .logo{
+    margin-left: 120px;
+}
+@media(max-width: 992px){
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width: 768px){
+     .logo-div{
+    position: absolute;
+    left: 61px;
+     }
+     .navbar-toggler{
+        position: absolute;
+        left: 472px;
+        top: 29px;
+     }
+      .hr1{
+         position: absolute;
+         top: 60px;
+    }
+}
+
+@media(max-width: 564px){
+    .image1{
+    margin-top: 50px;
+     margin-left: 80px;
+    }
+}
+
+@media(max-width: 564px){
+    .logo{
+        margin-left: 120px;
+        position: absolute;
+        left: 120px;
+    }
+    .nav-toggler{
+        position: absolute;
+        top: 60px;
+        margin-left: 120px;
+    }
+}
+@media(max-width: 464px){
+    .image1{
+       margin-left: 10px;
+    }
+}
+
+@media screen and (min-width:411px){
+     .logo{
+        margin-left: 0px;
+        width: 163px;
+        height: 98px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top:-83px;
+        left: 270px;
+    }
+    .hr1{
+         margin-top:4px;
+    }
+     .course{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .nav-toggler{
+        position: absolute;
+        /*left: 193px;*/
+        top: 83px;
+    }
+    .logo{
+        margin-left:-9px;
+        width: 163px;
+        height: 98px;
+    }
+
+     .border{
+        width: 180px;
+    }
+}
+
+
+@media(max-width: 360px){
+
+    .logo-div .logo{
+        margin-left:-20px;
+        width: 163px;
+        height: 98px;
+    }
+    .nav-toggler{
+        position: absolute;
+        left: 10px;
+        top: 1px;
+    }
+    .hr1{
+        margin-top: -19px;
+    }
+    .about h5{
+        text-align: center;
+
+    }
+    .border{
+        width: 160px;
+    }
+}
+
+
+@media(max-width: 320px){
+    .navbar-toggler{
+        position: absolute;
+        left: 165px;
+        top: -12px;
+    }
+    .hr1{
+        margin-top: 4px;
+    }
+    .btn1{
+        margin-bottom: 6px;
+    margin-top: 10px;
+    width: 167px;
+    }
+    .course{
+        margin-top: 10px;
+    }
+}
+@media(max-width: 320px){
+    .logo{
+        position: absolute;
+        left: 0px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: 105px;
+        left: 120px;
+    }
+    .navbar-nav{
+        position: relative;
+    top: 120px;
+    }
+
+    .image1{
+        margin-top: 128px;
+    }
+}
+/*.logo{
+    position: absolute;
+    top: 40px;
+}
+.logo-div{
+    height: 30px;
+}
+*/

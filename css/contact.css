@@ -1,0 +1,137 @@
+/*navbar*/
+.nav1 .navbar-dark .navbar-nav .nav-link {
+    color:#fd7705;
+    font-weight: bold;
+}
+.nav1 .navbar-dark .navbar-nav .nav-link :hover{
+    color:black;
+    font-weight: bold;
+}
+.nav2 .navbar-dark .navbar-nav .nav-link {
+    color:black;
+    font-weight: bold;
+}
+.nav2 .navbar-dark .navbar-nav .nav-link :hover{
+	color:#fd7705;
+}
+.nav-item{
+	padding: 0px 12px;
+}
+     .nav-item :hover{
+    	color:#01013c!important;
+    }
+    .nav-link.dropdown-toggle:hover{
+        color: black!important;
+    }
+    
+    .p1:hover{
+    	color: white!important;
+    }
+
+    #navbarDropdown{
+    	color: black;
+    }
+
+
+ /*Contact*/
+
+/* .contact i{
+     background-color: white;
+     border-radius: 50%;
+     width: 30px;
+     height: 30px;
+ }*/
+ .contact{
+ 	margin-top: 40px;
+ 	background-image: url(../assets/img/cont.jpg);
+ 	background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+    margin-bottom: 30px;
+ }
+ .contact .fa-map-marker-alt{
+ 	background-color: white;
+     border-radius: 50%;
+     width: 32px;
+     height: 32px;
+     border: 1px solid #01013c ;
+    
+ }
+ .fa-map-marker-alt:before{
+     position: relative;
+    top: 6px;
+ }
+
+ button{
+ 	border: none;
+ 	background-color: #fd7705;
+ }
+.contact1{
+	background-color:#fd7705;
+	border-radius: 10px;
+	padding: 20px 0px 20px 0px;
+}
+.form-group{
+	margin-bottom: 35px!important;
+	border-radius: 40px!important;
+}
+input{
+	box-shadow: 5px 5px #e3e0e0 inset;
+}
+textarea{
+	box-shadow: 5px 5px #e3e0e0 inset;
+}
+ .btn1{
+ 	border: none!important;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: #01013c;
+    font-weight:bold;
+ }
+/*footer1*/
+.footer1 ul li{
+	list-style-type: none;
+	text-align: center;
+	padding: 2px;
+
+}
+.footer1 ul{
+	padding-left: 0px;
+}
+/*footer2*/
+
+footer .fab{
+	font-size: 32px;
+	padding: 10px;
+}
+footer img{
+	width: 200px;
+}
+
+.map{
+	display: none;
+}
+.menu{
+	display: none;
+}
+.menu.active{
+	display: block;
+}
+.map.active{
+	display:block;
+}
+.menu1{
+	display: none;
+
+}
+.menu1.active{
+	display: block;
+}
+
+iframe{
+	/*margin-left:0px;*/
+}
+
+.contact.active{
+	background-image: none;
+}
