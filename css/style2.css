@@ -126,7 +126,129 @@ footer img{
     width: 200px;
 }
 
+@media(max-width: 540px){
+    .logo{
+        position: absolute;
+        left: 28px;
+    }
+    .hr1{
+        margin-top: 1rem;
+    }
+}
 
+@media(max-width: 412px){
+    .img1{
+     padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+.f1{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+.logo{
+    position: absolute;
+    left: 104px;
+}
+.navbar-toggler{
+    position: absolute;
+    left: 150px;
+    top: 42px;
+    background-color: white;
+}
+.navbar-nav{
+        position: relative;
+        top: 93px;
+    }
+.hr1{
+    margin-top: 4rem;
+}
+.about{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .about h5{
+        text-align: center;
+    }
+    .btn1{
+        margin-top: 2px;
+        width: 160px;
+        /*margin-left: -20px;*/
+    }
+}
+@media(max-width: 376px){
+  .img1{
+     padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+.f1{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+.logo{
+    position: absolute;
+    left: 104px;
+}
+.navbar-toggler{
+    position: absolute;
+    left: 150px;
+    top: 42px;
+    background-color: white;
+}
+.navbar-nav{
+        position: relative;
+        top: 93px;
+    }
+.hr1{
+    margin-top: 4rem;
+}
+.about{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .about h5{
+        text-align: center;
+    }
+    .btn1{
+        margin-top: 2px;
+        width: 160px;
+        /*margin-left: -20px;*/
+    }
+}
+@media(max-width: 321px){
+     .img1{
+     padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+.f1{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+.logo{
+    height: 57px;
+    width: 100px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+    height: 63px;
+    width: 123px;
+    left: 82px;
+}
+.navbar-toggler{
+    position: absolute;
+    left: 150px;
+    top: 32px;
+    background-color: white;
+}
+.navbar-nav{
+        position: relative;
+        top: 73px;
+    }
+.hr1{
+    margin-top: 3rem;
+}
+}
 @media(max-width: 280px){
     .img1{
      padding-right: 0px!important;
@@ -153,6 +275,20 @@ footer img{
     background-color: white;
 }
 .hr1{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
+
+.about{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .about h5{
+        text-align: center;
+    }
+    .btn1{
+        margin-top: 2px;
+        width: 160px;
+        margin-left: -20px;
+    }
 }
