@@ -1,0 +1,95 @@
+/*navbar*/
+body{
+    /*max-width: 1240px;*/
+}
+.sec1{
+    background-color: pink;
+}
+.nav1 .navbar-dark .navbar-nav .nav-link {
+    color:white;
+    /*font-weight: bold;*/
+}
+.nav1 .navbar-dark .navbar-nav .nav-link :hover{
+    color:white;
+    font-weight: bold;
+}
+.nav2 .navbar-dark .navbar-nav .nav-link {
+    color:white;
+    font-weight: bold;
+
+}
+.nav2 .navbar-dark .navbar-nav .nav-link :hover{
+	color:white;
+}
+.nav-item{
+	padding: 0px 12px;
+}
+
+     .nav-item :hover{
+    	color:#01013c!important;
+    }
+    .nav-link.dropdown-toggle:hover{
+        color:#1B2B4B!important;
+    }
+    
+    .p1:hover{
+    	color: white!important;
+    }
+
+    #navbarDropdown{
+    	color: #1B2B4B;
+    }
+.logo{
+    height: 87px; width: 140px;
+    position: absolute;
+    left:85px;
+    top: 10px;
+    height: 98px;
+    width: 163px;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+.hr1{
+    margin-top: -1rem;
+}
+.fa-search{
+    margin-top: 12px;
+    color:white;
+    /*width: 120px;*/
+    /*position: absolute;*/
+    /*right: -10px;*/
+}
+.nav2 ul{
+    padding-left: 5px;
+}
+.nav1{
+    /*margin-right: -36px;*/
+}
+
+#navbarDropdown {
+    color: white;
+}
+
+@media(max-width: 769px){
+    .hr1{
+        margin-top: 5px;
+    }
+   /* .navbar-toggler{
+        position: relative;
+    top: 49px;
+    }*/
+    .nav1 .icon1{
+     margin-top: 54px!important;
+}
+ .nav2{
+    display: none;
+ }
+}
+@media(max-width: 281px){
+    .logo{
+       left: 30px;
+       width: 123px;
+       height: 84px;
+    }
+}
+
